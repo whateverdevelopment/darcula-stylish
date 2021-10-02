@@ -1,0 +1,147 @@
+@-moz-document regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/.*")
+{
+/* Darcula Stylish */
+/* WhateverDev */
+
+/* Main */
+button, fieldset, input, select, #enabled-label, #help-popup .contents, #help-popup .title, #lint table, #manage-text, #options, .CodeMirror, .CodeMirror-linenumber
+{
+  color: #A9B7C6;
+}
+
+#heading, #installed h2, #manage-heading, #sections-heading
+{
+  color: #4081EC;
+}
+
+#lint table, #sections label, .applies-to
+{
+  color: #34A853;
+}
+
+button
+{
+  background: #555555;
+  border: 1px solid #A9B7C6;
+  border-radius: 4px;
+}
+
+input, select
+{
+  background-color: #2B2B2B;
+  border: 1px solid #555555;
+}
+
+#header, #sections > div:not(:first-of-type), .CodeMirror, .CodeMirror div.CodeMirror-cursor, .CodeMirror-gutters
+{
+  border-color: #A9B7C6;
+}
+
+/* Side Panel */
+#issue-count, .error
+{
+  color: #FF0000;
+}
+
+#manage-text a
+{
+  color: #9B479F;
+}
+
+#mozilla-format-heading, #options h2
+{
+  color: #A9B7C6;
+}
+
+#lint h2, .warning
+{
+  color: #FFBB00;
+}
+
+#header
+{
+  background-color: #313335;
+}
+
+fieldset
+{
+  border: 1px solid #A9B7C6;
+}
+
+/* Sections - Manage */
+#help-popup, #help-popup .contents, #stylish-edit, #stylish-manage
+{
+  background-color: #3C3F41;
+}
+
+#help-popup .title
+{
+  background-color: #313335;
+  border-bottom: 1px solid #555555;
+}
+
+/* Code */
+.CodeMirror
+{
+  background-color: #2B2B2B;
+}
+
+.CodeMirror-activeline-background, .CodeMirror-gutters
+{
+  background-color: #555555;
+}
+
+/* Code Colors - Default Theme */
+.cm-s-default .cm-atom
+{
+  color: #4081EC;
+}
+
+.cm-s-default .cm-builtin
+{
+  color: #00AACC;
+}
+
+.cm-s-default .cm-comment
+{
+  color: #CC7832;
+}
+
+.cm-s-default .cm-error, .cm-s-default .cm-string
+{
+  color: #FF0000;
+}
+
+.cm-s-default .cm-keyword
+{
+  color: #EA4335;
+}
+
+.cm-s-default .cm-meta
+{
+  color: #808080;
+}
+
+.cm-s-default .cm-number
+{
+  color: #9876AA;
+}
+
+.cm-s-default .cm-qualifier
+{
+  color: #BAB429;
+}
+
+.cm-s-default .cm-tag
+{
+  color: #34A853;
+}
+
+/* Fix Delete Conflict */
+.main-controls .actions .delete
+{
+  background: none;
+  border: none;
+  color: black;
+}
+}
